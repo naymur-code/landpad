@@ -25,6 +25,24 @@ body {
     color: #4E47FF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #252432;
+}
+
+h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.section-gap {
+    margin: 120px 0;
+}
+
 .btn {
     padding: 12px 36px;
     background-color: #4E47FF;
@@ -75,4 +93,22 @@ header {
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 40px;
+}
+
+/* action */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action img {
+    width: 400px;
+    border-radius: 48px;
+}
+
+.action-content p {
+    color: #252432;
+    margin: 22px 0;
+    font-size: 24px;
 }
