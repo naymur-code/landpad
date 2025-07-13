@@ -1,5 +1,56 @@
 /* default page reset */
-*{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
     margin: 0;
     padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+      font-family: "Raleway", sans-serif;
+
+}
+/* shared style */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.primary-color{
+    color: #4E47FF;
+}
+.btn{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* header */
+.header {
+    margin: 50px 0;
+}
+
+/* navbar */
+.navbar {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    width: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.logo h3{
+    font-size: 34px;
+    font-weight: bold;
 }
