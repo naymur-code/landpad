@@ -50,6 +50,13 @@ h3 {
     border: none;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: #FFB805;
+    color: #252432;
 }
 
 /* header */
