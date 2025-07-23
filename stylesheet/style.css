@@ -111,7 +111,7 @@ header {
 }
 
 .action img {
-    width: 400px;
+    width: 100%;
     border-radius: 48px;
 }
 
@@ -295,6 +295,19 @@ footer p {
         font-size: 40px;
     }
 
+    .action {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .action-content {
+        text-align: center;
+
+    }
+
+    .action-content p {
+        font-size: 16px;
+    }
 }
 
 /* responsive desktop */
@@ -305,6 +318,14 @@ footer p {
 
     .banner h1 {
         font-size: 45px;
+    }
+
+    .action {
+        gap: 30px;
+    }
+
+    .action-content p {
+        font-size: 18px;
     }
 
 
