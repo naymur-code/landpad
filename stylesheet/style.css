@@ -19,6 +19,7 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .primary-color {
@@ -268,5 +269,43 @@ nav li a {
 footer p {
     color: #8987A1;
     text-align: center;
+
+}
+
+.hide {
+    display: none;
+}
+
+/* responsive mobile */
+
+@media screen and (max-width:576px) {
+    .navbar img {
+        width: 40px;
+    }
+
+    .logo h3 {
+        font-size: 28px;
+    }
+
+    .banner {
+        padding: 30px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+}
+
+/* responsive desktop */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner {
+        padding: 50px;
+    }
+
+    .banner h1 {
+        font-size: 45px;
+    }
+
 
 }
