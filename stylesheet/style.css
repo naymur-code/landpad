@@ -126,6 +126,7 @@ header {
     border-radius: 20px;
     background-color: rgba(78, 71, 255, 0.1);
     padding: 50px 140px;
+    text-align: center;
 
 }
 
@@ -140,7 +141,7 @@ header {
 }
 
 .users h1 {
-    font-size: 70px;
+    font-size: 60px;
     color: #4E47FF;
     font-family: sans-serif;
     margin-top: 40px;
@@ -295,7 +296,7 @@ footer p {
         font-size: 40px;
     }
 
-    .action {
+    .action,.users {
         flex-direction: column;
         gap: 30px;
     }
@@ -307,6 +308,13 @@ footer p {
 
     .action-content p {
         font-size: 16px;
+    }
+    .productive-user{
+        text-align: center;
+        padding: 10px;
+    }
+    .users h1{
+        font-size: 40px;
     }
 }
 
@@ -327,6 +335,11 @@ footer p {
     .action-content p {
         font-size: 18px;
     }
-
+     .users h1{
+        font-size: 50px;
+    }
+.productive-user{
+    padding: 50px;
+}
 
 }
