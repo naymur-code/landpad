@@ -296,9 +296,19 @@ footer p {
         font-size: 40px;
     }
 
-    .action,.users {
+    .action,
+    .users,
+    .touch-section {
         flex-direction: column;
         gap: 30px;
+    }
+
+    .touch-section h1 {
+        font-size: 60px;
+    }
+
+    .cards {
+        flex-direction: column;
     }
 
     .action-content {
@@ -309,12 +319,26 @@ footer p {
     .action-content p {
         font-size: 16px;
     }
-    .productive-user{
+
+    .productive-user {
         text-align: center;
         padding: 10px;
     }
-    .users h1{
+
+    .users h1 {
         font-size: 40px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .nav {
+        gap: 20px;
+    }
+
+    footer {
+        padding: 80px;
     }
 }
 
@@ -335,11 +359,17 @@ footer p {
     .action-content p {
         font-size: 18px;
     }
-     .users h1{
+
+    .users h1 {
         font-size: 50px;
     }
-.productive-user{
-    padding: 50px;
-}
+
+    .productive-user {
+        padding: 50px;
+    }
+
+    .touch-section h1 {
+        font-size: 60px;
+    }
 
 }
